@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="aqropolwebapp:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/aqropolwebapp_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="aqropolwebapp/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

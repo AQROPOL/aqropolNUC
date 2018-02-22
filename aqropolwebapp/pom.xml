@@ -1,0 +1,106 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>aqropol-NUC</artifactId>
+        <groupId>istic.project.aqropol</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>aqropol-webapp</artifactId>
+    <packaging>war</packaging>
+    <name>aqropol-webapp Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+    <description>
+        Aqropol Web Application, utilisé par le projet Aqropol,
+        API REST fournissant les données récoltées par les capteurs.
+    </description>
+
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0, January 2004</name>
+            <url>
+                https://www.apache.org/licenses/LICENSE-2.0
+            </url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>
+            ISTIC
+        </name>
+        <url>
+            https://istic.univ-rennes1.fr
+        </url>
+    </organization>
+
+    <contributors>
+        <contributor>
+            <name>VinYarD</name>
+            <url>http://www.vinyard.pro/</url>
+            <email>contact@vinyard.pro</email>
+            <roles>
+                <role>Java</role>
+                <role>JEE</role>
+                <role>
+                    MQTT
+                </role>
+                <role>Arduino</role>
+            </roles>
+        </contributor>
+    </contributors>
+
+    <properties>
+        <maven.compiler.source>9</maven.compiler.source>
+        <maven.compiler.target>9</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>aqropol-webapp</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
+
+</project>

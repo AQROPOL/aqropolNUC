@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="aqropolwebapp:war">
+    <output-path>$PROJECT_DIR$/aqropolwebapp/target</output-path>
+    <root id="archive" name="aqropol-webapp.war">
+      <element id="artifact" artifact-name="aqropolwebapp:war exploded" />
+    </root>
+  </artifact>
+</component>
