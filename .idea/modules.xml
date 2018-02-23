@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aqropolNUC.iml" filepath="$PROJECT_DIR$/aqropolNUC.iml" />
       <module fileurl="file://$PROJECT_DIR$/aqropolwebapp/aqropolwebapp.iml" filepath="$PROJECT_DIR$/aqropolwebapp/aqropolwebapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/measurepmsensor/measurepmsensor.iml" filepath="$PROJECT_DIR$/measurepmsensor/measurepmsensor.iml" />
     </modules>
   </component>
 </project>
