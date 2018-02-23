@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: commons-cli:commons-cli:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/unknown/commons-cli-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/unknown/commons-cli-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/unknown/commons-cli-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
