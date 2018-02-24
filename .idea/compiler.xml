@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aqropolmomProducer" />
         <module name="aqropolwebapp" />
         <module name="measurepmsensor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aqropolmomProducer" target="9" />
       <module name="aqropolNUC" target="1.5" />
       <module name="aqropolwebapp" target="9" />
       <module name="measurepmsensor" target="9" />

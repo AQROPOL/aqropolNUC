@@ -7,21 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be76cda-6907-4b1e-ac6e-0c443a8fae38" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_beta1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_8_0_beta1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/aqropolmomProducer/aqropolmomProducer.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/rabbitmq.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/pom.xml" afterPath="$PROJECT_DIR$/aqropolmomProducer/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/App.java" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java" />
       <change beforePath="$PROJECT_DIR$/aqropolwebapp/target/aqropol-webapp.war" afterPath="$PROJECT_DIR$/aqropolwebapp/target/aqropol-webapp.war" />
-      <change beforePath="$PROJECT_DIR$/aqropolwebapp/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/aqropolwebapp/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" afterPath="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" />
       <change beforePath="$PROJECT_DIR$/measurepmsensor/target/classes/istic/project/aqropol/App.class" afterPath="$PROJECT_DIR$/measurepmsensor/target/classes/istic/project/aqropol/App.class" />
       <change beforePath="$PROJECT_DIR$/measurepmsensor/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/measurepmsensor/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       <change beforePath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/measurepmsensor/target/surefire-reports/TEST-istic.project.aqropol.AppTest.xml" afterPath="$PROJECT_DIR$/measurepmsensor/target/surefire-reports/TEST-istic.project.aqropol.AppTest.xml" />
       <change beforePath="$PROJECT_DIR$/measurepmsensor/target/surefire-reports/istic.project.aqropol.AppTest.txt" afterPath="$PROJECT_DIR$/measurepmsensor/target/surefire-reports/istic.project.aqropol.AppTest.txt" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/aqropolwebapp/target/" />
     <ignored path="$PROJECT_DIR$/measurepmsensor/target/" />
+    <ignored path="$PROJECT_DIR$/aqropolmomProducer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +53,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
+      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="145">
+              <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolwebapp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="69" column="20" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="69" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rabbitmq.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/rabbitmq.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -56,18 +88,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="16" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+            <state relative-caret-position="51">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="763">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,9 +123,13 @@
         <option value="$PROJECT_DIR$/aqropolwebapp/src/main/resources/info.properties" />
         <option value="$PROJECT_DIR$/aqropolwebapp/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/aqropolwebapp/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/measurepmsensor/pom.xml" />
         <option value="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/App.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/rabbitmq.properties" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java" />
       </list>
     </option>
   </component>
@@ -122,34 +158,23 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aqropol-NUC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="aqropol-momProducer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aqropol-NUC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="aqropol-momProducer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aqropol-webapp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="measure-pmsensor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="measure-pmsensor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="measure-pmsensor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="aqropol-NUC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
@@ -185,25 +210,25 @@
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -211,7 +236,7 @@
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -220,8 +245,33 @@
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolwebapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolwebapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolwebapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolwebapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
               <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,10 +283,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="9.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.25827205" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -255,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar">
+  <component name="RunManager" selected="JAR Application.aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -315,6 +368,16 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <envs />
+    </configuration>
+    <configuration name="aqropol-momProducer-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT.jar" />
+      <envs />
     </configuration>
     <configuration name="measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -439,17 +502,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0.5" />
       <item index="1" class="java.lang.String" itemvalue="JAR Application.measure-pmsensor-1.0-SNAPSHOT.jar" />
       <item index="2" class="java.lang.String" itemvalue="Application.App" />
       <item index="3" class="java.lang.String" itemvalue="JAR Application.measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <item index="4" class="java.lang.String" itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <item index="5" class="java.lang.String" itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT.jar" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JAR Application.measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-        <item index="1" class="java.lang.String" itemvalue="JAR Application.measure-pmsensor-1.0-SNAPSHOT.jar" />
-        <item index="2" class="java.lang.String" itemvalue="Application.App" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+        <item index="1" class="java.lang.String" itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT.jar" />
+        <item index="2" class="java.lang.String" itemvalue="JAR Application.measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+        <item index="3" class="java.lang.String" itemvalue="JAR Application.measure-pmsensor-1.0-SNAPSHOT.jar" />
+        <item index="4" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -469,12 +536,12 @@
       <workItem from="1519342271826" duration="4667000" />
       <workItem from="1519350485206" duration="293000" />
       <workItem from="1519350873134" duration="7872000" />
-      <workItem from="1519413176262" duration="8743000" />
+      <workItem from="1519413176262" duration="14117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21575000" />
+    <option name="totallyTimeSpent" value="26949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,12 +554,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13210227" sideWeight="0.29321486" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.60743135" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -501,14 +567,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28267047" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.38449112" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13210227" sideWeight="0.70678514" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.39256865" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17897727" sideWeight="0.7027464" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19628432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -518,13 +585,22 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28267047" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -562,6 +638,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,6 +682,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,33 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolNUC.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="16" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,17 +853,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="65" column="12" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="65" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="23">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolwebapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="69" column="20" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="69" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>aqropolwebapp:ear exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25827205" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaEE Application</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25827205" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25827205" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25827205" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>aqropolmomProducer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25827205" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>JDK_1.8.0</last-edited>
@@ -816,6 +990,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.rabbitmq:amqp-client:5.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25827205" />
               </list>
             </option>
           </splitter-proportions>

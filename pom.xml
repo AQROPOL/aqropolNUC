@@ -55,7 +55,25 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
+
+        <dependency>
         <groupId>istic.project.aqropol</groupId>
         <artifactId>aqropol-webapp</artifactId>
         <version>1.0-SNAPSHOT</version>
@@ -80,6 +98,13 @@
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.1.2</version>
         </dependency>
 
         <dependency>
