@@ -8,6 +8,7 @@
   <modules>
     <module>aqropolwebapp</module>
       <module>measurepmsensor</module>
+      <module>aqropolmomProducer</module>
   </modules>
   <packaging>pom</packaging>
 
