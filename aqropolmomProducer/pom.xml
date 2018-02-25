@@ -14,6 +14,14 @@
     <url>http://maven.apache.org</url>
 
     <properties>
+        <aqropol.rabbitmq.exchange>sensor_exchange</aqropol.rabbitmq.exchange>
+        <aqropol.rabbitmq.vhost>aqropol</aqropol.rabbitmq.vhost>
+        <aqropol.rabbitmq.user>aqropol</aqropol.rabbitmq.user>
+        <aqropol.rabbitmq.pass>64GbL3k7uc33QCtc</aqropol.rabbitmq.pass>
+        <aqropol.rabbitmq.host>localhost</aqropol.rabbitmq.host>
+        <aqropol.rabbitmq.port>5672</aqropol.rabbitmq.port>
+        <aqropol.topic.root>sensor</aqropol.topic.root>
+
         <maven.compiler.source>9</maven.compiler.source>
         <maven.compiler.target>9</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -83,5 +91,11 @@
                 </executions>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
     </build>
 </project>
