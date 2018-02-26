@@ -7,19 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be76cda-6907-4b1e-ac6e-0c443a8fae38" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/config.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Test.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/TopicProducer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/aqropolmomProducer.iml" afterPath="$PROJECT_DIR$/aqropolmomProducer/aqropolmomProducer.iml" />
       <change beforePath="$PROJECT_DIR$/aqropolmomProducer/pom.xml" afterPath="$PROJECT_DIR$/aqropolmomProducer/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java" />
-      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/rabbitmq.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/config.properties" />
       <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/classes/istic/project/aqropol/Producer.class" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/classes/istic/project/aqropol/Producer.class" />
-      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/classes/rabbitmq.properties" afterPath="" />
       <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/surefire-reports/TEST-istic.project.aqropol.AppTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/surefire-reports/istic.project.aqropol.AppTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aqropolwebapp/pom.xml" afterPath="$PROJECT_DIR$/aqropolwebapp/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +55,18 @@
       <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,59 +75,91 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aqropolmomProducer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="960">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletCollect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/java/com/servlet/ServletCollect.java">
+      <file leaf-file-name="TopicProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/TopicProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolwebapp/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="70" column="20" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="70" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="method#setHost#0;class#Producer#0" expanded="false" />
-                <element signature="e#3400#3401#0" expanded="true" />
-                <element signature="e#3445#3446#0" expanded="true" />
-                <element signature="e#3595#3596#0" expanded="true" />
-                <element signature="e#3644#3645#0" expanded="true" />
-                <element signature="e#3794#3795#0" expanded="true" />
-                <element signature="e#3843#3844#0" expanded="true" />
-                <element signature="e#3975#3976#0" expanded="true" />
-                <element signature="e#4020#4021#0" expanded="true" />
-                <element signature="e#4181#4182#0" expanded="true" />
-                <element signature="e#4222#4223#0" expanded="true" />
+                <element signature="e#1489#1490#0" expanded="true" />
+                <element signature="e#1545#1546#0" expanded="true" />
+                <element signature="e#1609#1610#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1732#1733#0" expanded="true" />
+                <element signature="e#1790#1791#0" expanded="true" />
+                <element signature="e#1825#1826#0" expanded="true" />
+                <element signature="e#1860#1861#0" expanded="true" />
+                <element signature="e#2276#2277#0" expanded="true" />
+                <element signature="e#2308#2309#0" expanded="true" />
+                <element signature="e#2347#2348#0" expanded="true" />
+                <element signature="e#2384#2385#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="RoutingProducer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Properties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="1368" column="35" lean-forward="false" selection-start-line="1368" selection-start-column="19" selection-end-line="1368" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -145,12 +192,17 @@
         <option value="$PROJECT_DIR$/measurepmsensor/pom.xml" />
         <option value="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/App.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/aqropolwebapp/pom.xml" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/rabbitmq.properties" />
-        <option value="$PROJECT_DIR$/aqropolmomProducer/pom.xml" />
-        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerExchanger.java" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Test.java" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerClient.java" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/TopicProducer.java" />
       </list>
     </option>
   </component>
@@ -582,12 +634,20 @@
       <workItem from="1519342271826" duration="4667000" />
       <workItem from="1519350485206" duration="293000" />
       <workItem from="1519350873134" duration="7872000" />
-      <workItem from="1519413176262" duration="22559000" />
+      <workItem from="1519413176262" duration="50265000" />
     </task>
+    <task id="LOCAL-00001" summary="some stuffs">
+      <created>1519531786230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519531786230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35391000" />
+    <option name="totallyTimeSpent" value="63097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,7 +669,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.4915254" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.4915254" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -619,10 +679,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.3901454" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16335227" sideWeight="0.3901454" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17755681" sideWeight="0.6987076" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19628432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19628432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5084746" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -652,8 +712,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some stuffs" />
+    <option name="LAST_COMMIT_MESSAGE" value="some stuffs" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -920,26 +986,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1343">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/resources/info.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/java/com/servlet/ServletCollect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -952,42 +1002,298 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2.jar!/com/rabbitmq/client/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="1810" column="13" lean-forward="false" selection-start-line="1810" selection-start-column="13" selection-end-line="1810" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1368" column="35" lean-forward="false" selection-start-line="1368" selection-start-column="19" selection-end-line="1368" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2.jar!/com/rabbitmq/client/ConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="453" column="22" lean-forward="false" selection-start-line="453" selection-start-column="22" selection-end-line="453" selection-end-column="22" />
+          <folding>
+            <marker date="1519437593000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519437593000" expanded="false" signature="143:1490" ph="..." />
+            <marker date="1519437593000" expanded="true" signature="3927:4479" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="4508:4519" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="4536:4542" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="4580:4591" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="4608:4614" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="4675:4798" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="4824:4835" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="4881:4887" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="4922:4933" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="4950:4956" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="4989:5000" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="5021:5027" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="5073:5084" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="5109:5115" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="5148:5159" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="5180:5186" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="5232:5243" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="5268:5274" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="5310:5321" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="5345:5351" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="5403:5414" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="5445:5451" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="5561:6974" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="7093:7141" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="7182:7369" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="7410:7421" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="7453:7459" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="7524:7535" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="7582:7588" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="7627:7638" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="7668:7674" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="7735:7746" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="7789:7795" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="7835:7846" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="7877:7883" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="7935:8135" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="8174:8185" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="8215:8221" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="8259:8270" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="8299:8305" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="8356:8550" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="8607:8618" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="8657:8663" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="8700:8711" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="8739:8745" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="8808:8819" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="8864:8870" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="8924:8935" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="8965:8971" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9046:9057" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9099:9105" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9144:9155" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9178:9184" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9238:9249" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9278:9284" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9329:9340" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9366:9372" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9429:9440" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9469:9475" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9530:9541" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9564:9570" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9648:9659" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9696:9702" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9763:9774" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9805:9811" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9874:9885" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="9918:9924" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="9997:10008" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="10042:10048" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="10093:10104" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="10130:10136" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="10199:10210" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="10245:10251" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="10302:10313" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="10342:10348" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="10421:10634" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="10663:10772" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="10863:10994" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="11100:11181" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="11314:11500" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="11553:11703" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="11598:11637" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="11785:12223" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="12272:12283" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="12313:12319" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="12391:12402" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="12445:12451" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="12499:12510" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="12539:12545" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="12615:12626" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="12667:12673" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="12745:12756" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="12797:12803" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="12854:12865" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="12894:12900" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="12996:13702" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="13794:13899" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="14007:14118" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="14237:14342" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="14438:14528" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="14651:14741" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="14859:14953" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="15098:15192" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="15314:15393" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="15527:15627" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="15776:15883" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="16044:18014" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="18096:19396" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="19530:19611" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="19688:19823" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="19921:20072" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="20173:20297" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="20421:20561" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="20640:20815" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="20854:21036" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="21120:21220" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="21319:21427" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="21486:21576" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="21650:21748" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="21816:21906" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="21989:22087" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="22133:22144" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="22180:22186" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="22260:22337" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="22412:22483" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="22542:22553" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="22586:22592" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="22677:22742" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="22793:22804" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="22831:22837" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="22874:22885" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="22907:22913" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="22939:22950" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="22966:22972" ph=" }" />
+            <marker date="1519437593000" expanded="false" signature="23005:23016" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="23033:23039" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="23101:23309" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="23348:23359" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="23389:23395" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="23471:23530" ph="{...}" />
+            <marker date="1519437593000" expanded="true" signature="23628:23719" ph="{...}" />
+            <marker date="1519437593000" expanded="false" signature="23777:23788" ph=" { " />
+            <marker date="1519437593000" expanded="false" signature="23834:23840" ph=" }" />
+            <marker date="1519437593000" expanded="true" signature="23853:23935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2-sources.jar!/com/rabbitmq/client/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1950">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2-sources.jar!/com/rabbitmq/client/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="123" column="12" lean-forward="false" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerExchanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/java/com/servlet/ServletCollect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolmomProducer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="960">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Producer.java">
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="method#setHost#0;class#Producer#0" expanded="false" />
-            <element signature="e#3400#3401#0" expanded="true" />
-            <element signature="e#3445#3446#0" expanded="true" />
-            <element signature="e#3595#3596#0" expanded="true" />
-            <element signature="e#3644#3645#0" expanded="true" />
-            <element signature="e#3794#3795#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
-            <element signature="e#3975#3976#0" expanded="true" />
-            <element signature="e#4020#4021#0" expanded="true" />
-            <element signature="e#4181#4182#0" expanded="true" />
-            <element signature="e#4222#4223#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/TopicProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#2276#2277#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
