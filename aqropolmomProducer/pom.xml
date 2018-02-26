@@ -20,7 +20,7 @@
         <aqropol.rabbitmq.pass>64GbL3k7uc33QCtc</aqropol.rabbitmq.pass>
         <aqropol.rabbitmq.host>localhost</aqropol.rabbitmq.host>
         <aqropol.rabbitmq.port>5672</aqropol.rabbitmq.port>
-        <aqropol.topic.root>sensor</aqropol.topic.root>
+        <aqropol.topic.route>sensor</aqropol.topic.route>
 
         <maven.compiler.source>9</maven.compiler.source>
         <maven.compiler.target>9</maven.compiler.target>

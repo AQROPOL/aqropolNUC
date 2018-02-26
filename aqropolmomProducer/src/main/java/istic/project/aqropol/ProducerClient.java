@@ -41,6 +41,7 @@ class ProducerClient {
 
         factory.setAutomaticRecoveryEnabled(true);
         factory.setRequestedHeartbeat(60);
+
         this.connection = factory.newConnection();
 
         if(logger.isInfoEnabled()) {

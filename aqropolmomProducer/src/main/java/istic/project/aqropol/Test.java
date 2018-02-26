@@ -13,7 +13,7 @@ public class Test {
 
                 boolean loop = true;
                 while(loop) {
-                    prod.send("topic", "message de test.");
+                    prod.send("sensor", "message de test.");
                     try {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {

@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeoutException;
 
-
+@Deprecated
 public class TopicProducer {
 
     private final static Logger logger = Logger.getLogger(TopicProducer.class);
@@ -25,7 +25,7 @@ public class TopicProducer {
         try {
             this.channel.exchangeDeclare(this.exchanger, BuiltinExchangeType.TOPIC, true);
         } catch (IOException e) {
-            logger.error("Can't déclare exchange : " + e.getMessage(), e);
+            logger.error("Can't declare exchange : " + e.getMessage(), e);
         }
 
         if(logger.isDebugEnabled()) {
@@ -78,7 +78,7 @@ public class TopicProducer {
 
         public TopicProducerFactory() {
             InputStream isConfig = TopicProducer.class.getResourceAsStream("/config.properties");
-            Properties config = new Properties();
+            this.config = new Properties();
 
             try {
                 config.load(isConfig);
