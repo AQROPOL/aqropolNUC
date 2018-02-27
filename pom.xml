@@ -16,6 +16,22 @@
     <url>http://maven.apache.org</url>
 
     <properties>
+        <aqropol.amqp.host>localhost</aqropol.amqp.host>
+        <aqropol.amqp.port>5672</aqropol.amqp.port>
+        <aqropol.amqp.vhost>aqropol</aqropol.amqp.vhost>
+        <aqropol.amqp.user>aqropol</aqropol.amqp.user>
+        <aqropol.amqp.pass>64GbL3k7uc33QCtc</aqropol.amqp.pass>
+
+        <aqropol.amqp.channel.exchanger>aqropol_sensors</aqropol.amqp.channel.exchanger>
+        <aqropol.amqp.channel.route>aqropol_sensors_data</aqropol.amqp.channel.route>
+
+        <aqropol.amqp.queue>sensors</aqropol.amqp.queue>
+        <aqropol.ampq.queue.durable>true</aqropol.ampq.queue.durable>
+        <aqropol.amqp.queue.exclusive>false</aqropol.amqp.queue.exclusive>
+        <aqropol.amqp.queue.autodelete>false</aqropol.amqp.queue.autodelete>
+
+        <maven.compiler.source>9</maven.compiler.source>
+        <maven.compiler.target>9</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

@@ -8,12 +8,12 @@ public class Test {
     public Test() {
 
             try {
-                TopicProducer.TopicProducerFactory factory = new TopicProducer.TopicProducerFactory();
-                TopicProducer prod = factory.build();
+                RoutingProducer.RoutingProducerFactory factory = new RoutingProducer.RoutingProducerFactory();
+                RoutingProducer prod = factory.build();
 
                 boolean loop = true;
                 while(loop) {
-                    prod.send("sensor", "message de test.");
+                    prod.send("message de test.");
                     try {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
