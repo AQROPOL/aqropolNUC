@@ -27,6 +27,25 @@ public class Measure {
     @Column(name = "value", nullable = false)
     private byte[] value;
 
+    public Nuc getNuc() {
+        return nuc;
+    }
+
+    public void setNuc(Nuc nuc) {
+        this.nuc = nuc;
+    }
+
+    public byte[] getHash() {
+        return hash;
+    }
+
+    public void setHash(byte[] hash) {
+        this.hash = hash;
+    }
+
+    @Column(name = "hash", nullable = false)
+    private byte[] hash;
+
     @Column(name = "datetime", nullable = false)
     private Timestamp timestamp;
 
