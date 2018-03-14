@@ -7,5 +7,4 @@ hello/data/repository/NucRepository.class
 hello/Application.class
 hello/data/repository/MeasureRepository.class
 hello/data/Sensor.class
-hello/Receiver.class
 hello/GreetingController.class

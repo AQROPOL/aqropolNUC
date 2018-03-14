@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aqropolNUC.iml" filepath="$PROJECT_DIR$/aqropolNUC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aqropolmomConsumer/aqropolmomConsumer.iml" filepath="$PROJECT_DIR$/aqropolmomConsumer/aqropolmomConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/aqropolmomProducer/aqropolmomProducer.iml" filepath="$PROJECT_DIR$/aqropolmomProducer/aqropolmomProducer.iml" />
       <module fileurl="file://$PROJECT_DIR$/aqropolrest/aqropolrest.iml" filepath="$PROJECT_DIR$/aqropolrest/aqropolrest.iml" />
       <module fileurl="file://$PROJECT_DIR$/measurepmsensor/measurepmsensor.iml" filepath="$PROJECT_DIR$/measurepmsensor/measurepmsensor.iml" />
