@@ -14,6 +14,11 @@ public class RoutingProducer {
     private final static Logger logger = Logger.getLogger(RoutingProducer.class);
 
     private final String exchanger, route, encoding, queue;
+
+    public boolean isDurable() {
+        return durable;
+    }
+
     private final boolean durable, exclusive, autodelete;
     private final Channel channel;
 
@@ -70,17 +75,7 @@ public class RoutingProducer {
         this.channel.addShutdownListener(listener);
     }
 
-    public Channel getChannel() {
-        return this.channel;
-    }
 
-    public String getRoute() {
-        return this.route;
-    }
-
-    public String getExchangeName() {
-        return this.exchanger;
-    }
 
     public static class RoutingProducerFactory {
 

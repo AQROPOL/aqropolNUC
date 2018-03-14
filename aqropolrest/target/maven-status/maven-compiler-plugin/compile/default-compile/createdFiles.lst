@@ -1,0 +1,10 @@
+hello/data/Nuc.class
+hello/Greeting.class
+hello/data/Measure.class
+hello/data/repository/SensorRepository.class
+config/WebSecurityConfig.class
+hello/data/repository/NucRepository.class
+hello/Application.class
+hello/data/repository/MeasureRepository.class
+hello/data/Sensor.class
+hello/GreetingController.class

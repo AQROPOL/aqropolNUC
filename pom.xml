@@ -6,7 +6,7 @@
     <artifactId>aqropol-NUC</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>aqropolwebapp</module>
+        <module>aqropolrest</module>
         <module>measurepmsensor</module>
         <module>aqropolmomProducer</module>
     </modules>
@@ -30,8 +30,8 @@
         <aqropol.amqp.queue.exclusive>false</aqropol.amqp.queue.exclusive>
         <aqropol.amqp.queue.autodelete>false</aqropol.amqp.queue.autodelete>
 
-        <maven.compiler.source>9</maven.compiler.source>
-        <maven.compiler.target>9</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -204,8 +204,8 @@
                     <configuration>
                         <showDeprecation>true</showDeprecation>
                         <showWarnings>true</showWarnings>
-                        <source>9</source>
-                        <target>9</target>
+                        <source>1.8</source>
+                        <target>1.8</target>
                     </configuration>
                 </plugin>
             </plugins>

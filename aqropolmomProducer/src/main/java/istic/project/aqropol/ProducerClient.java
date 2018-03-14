@@ -20,7 +20,7 @@ class ProducerClient {
     private Connection connection;
 
     private ProducerClient() throws IOException, TimeoutException {
-        InputStream isConfig = TopicProducer.class.getResourceAsStream("/config.properties");
+        InputStream isConfig = ProducerClient.class.getResourceAsStream("/config.properties");
         Properties config = new Properties();
 
         try {
