@@ -9,6 +9,7 @@
         <module>aqropolrest</module>
         <module>measurepmsensor</module>
         <module>aqropolmomProducer</module>
+        <module>aqropolmomConsumer</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -105,13 +106,7 @@
                 <version>3.2.0</version>
             </dependency>
 
-            <!-- https://mvnrepository.com/artifact/org.scream3r/jssc -->
-            <dependency>
-                <groupId>org.scream3r</groupId>
-                <artifactId>jssc</artifactId>
-                <version>2.8.0</version>
-                <scope>compile</scope>
-            </dependency>
+
 
             <dependency>
                 <groupId>junit</groupId>

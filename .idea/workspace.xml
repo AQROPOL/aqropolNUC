@@ -7,30 +7,254 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be76cda-6907-4b1e-ac6e-0c443a8fae38" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_3_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_2_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_2_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_4_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/aqropolrest.iml" afterPath="$PROJECT_DIR$/aqropolrest/aqropolrest.iml" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java" afterPath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar.original" afterPath="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar.original" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/target/classes/hello/Application.class" afterPath="$PROJECT_DIR$/aqropolrest/target/classes/hello/Application.class" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/target/classes/hello/Receiver.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/aqropolrest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/aqropolrest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/measurepmsensor/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/measurepmsensor/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <change beforePath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT.jar" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fazecast_jSerialComm_1_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_kurbatov_firmata4j_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/ArduinoJson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/SUPPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/banner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/examples/JsonConfigFile/JsonConfigFile.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/examples/JsonGeneratorExample/JsonGeneratorExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/examples/JsonHttpClient/JsonHttpClient.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/examples/JsonParserExample/JsonParserExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/examples/JsonServer/JsonServer.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/examples/JsonUdpBeacon/JsonUdpBeacon.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/examples/ProgmemExample/ProgmemExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/examples/StringExample/StringExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/fuzz.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/fuzzer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/my_corpus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/seed_corpus/Comments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/seed_corpus/EmptyArray.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/seed_corpus/EmptyObject.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/seed_corpus/ExcessiveNesting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/seed_corpus/Numbers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/seed_corpus/OpenWeatherMap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/seed_corpus/Strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/fuzzing/seed_corpus/WeatherUnderground.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/keywords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/library.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/library.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/build-arduino-package.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/build-single-header.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/create-build-envs.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/create-size-graph.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/oss-fuzz/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/oss-fuzz/Vagrantfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/travis/arduino.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/travis/cmake.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/travis/coverage.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/scripts/travis/platformio.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Configuration.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/Encoding.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/JsonBufferAllocated.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/JsonFloat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/JsonInteger.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/JsonVariantAs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/JsonVariantContent.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/JsonVariantDefault.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/JsonVariantType.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/List.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/ListConstIterator.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/ListIterator.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/ListNode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/NonCopyable.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/ReferenceType.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/ValueSaver.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Deserialization/Comments.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Deserialization/JsonParser.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Deserialization/JsonParserImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Deserialization/StringWriter.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/DynamicJsonBuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonArray.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonArrayImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonArraySubscript.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonBuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonBufferBase.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonBufferImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonObject.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonObjectImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonObjectSubscript.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonPair.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonVariant.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonVariantBase.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonVariantCasts.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonVariantComparisons.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonVariantImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonVariantOr.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/JsonVariantSubscripts.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Polyfills/attributes.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Polyfills/ctype.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Polyfills/isFloat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Polyfills/isInteger.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Polyfills/math.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Polyfills/parseFloat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Polyfills/parseInteger.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/RawJson.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/DummyPrint.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/DynamicStringBuilder.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/FloatParts.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/IndentedPrint.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/JsonPrintable.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/JsonSerializer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/JsonSerializerImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/JsonWriter.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/Prettyfier.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/StaticStringBuilder.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Serialization/StreamPrintAdapter.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/StaticJsonBuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/StringTraits/ArduinoStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/StringTraits/CharPointer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/StringTraits/FlashString.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/StringTraits/StdStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/StringTraits/StdString.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/StringTraits/StringTraits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/EnableIf.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/FloatTraits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsArray.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsBaseOf.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsChar.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsConst.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsFloatingPoint.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsIntegral.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsSame.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsSignedIntegral.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsUnsignedIntegral.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/IsVariant.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/RemoveConst.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/TypeTraits/RemoveReference.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/DynamicJsonBuffer/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/DynamicJsonBuffer/alloc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/DynamicJsonBuffer/createArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/DynamicJsonBuffer/createObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/DynamicJsonBuffer/no_memory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/DynamicJsonBuffer/size.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/DynamicJsonBuffer/startString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/IntegrationTests/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/IntegrationTests/gbathree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/IntegrationTests/round_trip.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/add.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/basics.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/copyFrom.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/copyTo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/invalid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/iterator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/prettyPrintTo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/printTo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/remove.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/set.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/size.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonArray/subscript.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonBuffer/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonBuffer/nested.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonBuffer/nestingLimit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonBuffer/parse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonBuffer/parseArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonBuffer/parseObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/basics.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/containsKey.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/get.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/invalid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/iterator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/prettyPrintTo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/printTo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/remove.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/set.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/size.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonObject/subscript.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/as.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/compare.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/copy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/is.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/or.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/printTo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/set_get.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/subscript.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/success.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonVariant/undefined.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonWriter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonWriter/writeFloat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/JsonWriter/writeString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/FloatParts.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/StringBuilder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/StringTraits.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/TypeTraits.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/deprecated.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/std_stream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/std_string.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/unsigned_char.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Misc/vla.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Polyfills/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Polyfills/isFloat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Polyfills/isInteger.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Polyfills/parseFloat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/Polyfills/parseInteger.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/StaticJsonBuffer/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/StaticJsonBuffer/alloc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/StaticJsonBuffer/createArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/StaticJsonBuffer/createObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/StaticJsonBuffer/parseArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/StaticJsonBuffer/parseObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/StaticJsonBuffer/size.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/test/StaticJsonBuffer/startString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/third-party/catch/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/third-party/catch/catch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/third-party/catch/catch.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_beta1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_beta2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_8_0_beta1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/novaPMsensor.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/novaPMsensor.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomConsumer/aqropolmomConsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomConsumer/aqropolmomConsumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomConsumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomConsumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/aqropolmomProducer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomProducer/aqropolmomProducer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomProducer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/classes/istic/project/aqropol/RoutingProducer$RoutingProducerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/classes/istic/project/aqropol/RoutingProducer$RoutingProducerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/classes/istic/project/aqropol/RoutingProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/classes/istic/project/aqropol/RoutingProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomProducer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomProducer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolrest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/measurepmsensor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/measurepmsensor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/target/classes/istic/project/aqropol/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/target/classes/istic/project/aqropol/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,6 +262,7 @@
     <ignored path="$PROJECT_DIR$/measurepmsensor/target/" />
     <ignored path="$PROJECT_DIR$/aqropolmomProducer/target/" />
     <ignored path="$PROJECT_DIR$/aqropolrest/target/" />
+    <ignored path="$PROJECT_DIR$/aqropolmomConsumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,20 +320,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5018#5019#0" expanded="true" />
+                <element signature="e#5063#5064#0" expanded="true" />
+                <element signature="e#5166#5167#0" expanded="true" />
+                <element signature="e#5233#5234#0" expanded="true" />
+                <element signature="e#5319#5320#0" expanded="true" />
+                <element signature="e#5386#5387#0" expanded="true" />
+                <element signature="e#6182#6183#0" expanded="true" />
+                <element signature="e#6217#6218#0" expanded="true" />
+                <element signature="e#6261#6262#0" expanded="true" />
+                <element signature="e#6301#6302#0" expanded="true" />
+                <element signature="e#6338#6339#0" expanded="true" />
+                <element signature="e#6375#6376#0" expanded="true" />
+                <element signature="e#6423#6424#0" expanded="true" />
+                <element signature="e#6467#6468#0" expanded="true" />
+                <element signature="e#6869#6870#0" expanded="true" />
+                <element signature="e#6912#6913#0" expanded="true" />
+                <element signature="e#6960#6961#0" expanded="true" />
+                <element signature="e#7008#7009#0" expanded="true" />
+                <element signature="e#7048#7049#0" expanded="true" />
+                <element signature="e#7092#7093#0" expanded="true" />
+                <element signature="e#7142#7143#0" expanded="true" />
+                <element signature="e#7192#7193#0" expanded="true" />
+                <element signature="e#7231#7232#0" expanded="true" />
+                <element signature="e#7274#7275#0" expanded="true" />
+                <element signature="e#7322#7323#0" expanded="true" />
+                <element signature="e#7370#7371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="novaPMsensor.ino" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/novaPMsensor.ino">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/List.hpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Measure.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sensor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Sensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -117,39 +415,7 @@
         <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NucRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="77" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolrest/init.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <marker date="1521042071000" expanded="true" signature="8:49" ph="DROP TABLE I... " />
-                <marker date="1521042071000" expanded="true" signature="80:160" ph="CREATE TABLE... nuc" />
-                <marker date="1521042071000" expanded="true" signature="163:297" ph="CREATE TABLE... sensor" />
-                <marker date="1521042071000" expanded="true" signature="300:475" ph="CREATE TABLE... measure" />
-                <marker date="1521042071000" expanded="true" signature="478:586" ph="ALTER TABLE measure... " />
-                <marker date="1521042071000" expanded="true" signature="588:706" ph="ALTER TABLE measure... " />
-                <marker date="1521042071000" expanded="true" signature="709:794" ph="ALTER TABLE sensor... " />
-                <marker date="1521042071000" expanded="true" signature="838:900" ph="GRANT UPDATE... " />
-                <marker date="1521042071000" expanded="true" signature="902:935" ph="GRANT SELECT... " />
-                <marker date="1521042071000" expanded="true" signature="937:999" ph="GRANT SELECT... " />
-              </folding>
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -157,61 +423,17 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolrest/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeasureRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MomConsumerApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
-              <folding />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nuc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Nuc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -228,6 +450,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>out.print</find>
+      <find>InputStream</find>
+      <find>Input</find>
+      <find>getInputStream</find>
+      <find>cmdIn</find>
+      <find>impl</find>
+      <find>bufferLoop</find>
+      <find>toString</find>
+      <find>ready</find>
+      <find>measure</find>
+      <find>addShutdownHook</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -248,17 +480,11 @@
       </branch-storage>
     </favorite-branches>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/aqropolwebapp/src/main/resources/info.properties" />
         <option value="$PROJECT_DIR$/aqropolwebapp/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/App.java" />
         <option value="$PROJECT_DIR$/aqropolwebapp/pom.xml" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/rabbitmq.properties" />
@@ -270,8 +496,6 @@
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-prod/log4j.properties" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Test.java" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-dev/config.properties" />
-        <option value="$PROJECT_DIR$/aqropolmomProducer/pom.xml" />
-        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-prod/config.properties" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Greeting.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/webapp/index.jsp" />
@@ -288,16 +512,25 @@
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerClient.java" />
-        <option value="$PROJECT_DIR$/measurepmsensor/pom.xml" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Receiver.java" />
-        <option value="$PROJECT_DIR$/aqropolrest/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/GreetingController.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java" />
         <option value="$PROJECT_DIR$/aqropolrest/init.sql" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java" />
         <option value="$PROJECT_DIR$/aqropolrest/pom.xml" />
+        <option value="$PROJECT_DIR$/aqropolrest/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java" />
+        <option value="$PROJECT_DIR$/measurepmsensor/measurepmsensor.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java" />
+        <option value="$PROJECT_DIR$/aqropolmomProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/measurepmsensor/pom.xml" />
+        <option value="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" />
+        <option value="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/novaPMsensor.ino" />
+        <option value="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/readme.txt" />
       </list>
     </option>
   </component>
@@ -335,23 +568,21 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aqropol-rest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="measure-pmsensor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aqropol-rest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="measure-pmsensor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aqropol-rest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mom_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aqropol-rest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="mom_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -368,21 +599,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -423,90 +644,198 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="istic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="aqropolmomConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="istic" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="aqropolmomConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="istic" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="aqropol" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="aqropolmomConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="istic" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="aqropol" type="462c0819:PsiDirectoryNode" />
               <item name="mom_consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="aqropolrest" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
-              <item name="aqropolrest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropolmomProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+              <item name="novaPMsensor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+              <item name="novaPMsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+              <item name="novaPMsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+              <item name="SDS011_sensor_Library" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
               <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aqropolNUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqropolNUC" type="462c0819:PsiDirectoryNode" />
+              <item name="measurepmsensor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aqropol" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25827205" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-dev" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries" />
       <recent name="$PROJECT_DIR$/aqropolrest/src/main/resources/conf-dev" />
       <recent name="$PROJECT_DIR$/aqropolrest/src/main/resources/conf-test" />
       <recent name="$PROJECT_DIR$/aqropolrest/src/main/resources/conf-prod" />
       <recent name="$PROJECT_DIR$/aqropolrest" />
-      <recent name="$PROJECT_DIR$/aqropolwebapp/src/main/resources/conf-prod" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-dev" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -518,31 +847,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.aqropol-rest-2.0.0.RELEASE.jar">
+  <component name="RunManager" selected="JAR Application.measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -552,73 +864,36 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration name="aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="JAR_PATH" value="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <envs />
-    </configuration>
-    <configuration name="aqropol-momProducer-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/aqropolmomProducer/target/aqropol-momProducer-1.0-SNAPSHOT.jar" />
-      <envs />
     </configuration>
     <configuration name="aqropol-rest-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="JAR_PATH" value="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-1.0-SNAPSHOT.jar" />
-      <envs />
     </configuration>
     <configuration name="aqropol-rest-2.0.0.RELEASE.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="JAR_PATH" value="$PROJECT_DIR$/aqropolrest/target/aqropol-rest-2.0.0.RELEASE.jar" />
-      <envs />
     </configuration>
-    <configuration name="aqropol-momProducer [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="package" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/aqropolmomProducer" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
+    <configuration name="measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/measurepmsensor/target/measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration name="mom_consumer-0.0.1-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/aqropolmomConsumer/target/mom_consumer-0.0.1-SNAPSHOT.jar" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
       <module name="aqropolrest" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
+    </configuration>
+    <configuration name="MomConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aqropolmomConsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="istic.project.aqropol.mom_consumer.MomConsumerApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -631,15 +906,12 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -660,7 +932,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="50875" />
       </RunnerSettings>
@@ -731,7 +1002,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51413" />
       </RunnerSettings>
@@ -784,34 +1054,39 @@
         <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0.5" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0.5 Rest" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="3" class="java.lang.String" itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <item index="4" class="java.lang.String" itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT.jar" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.aqropol-momProducer [package]" />
-      <item index="6" class="java.lang.String" itemvalue="JAR Application.aqropol-rest-2.0.0.RELEASE.jar" />
-      <item index="7" class="java.lang.String" itemvalue="JAR Application.aqropol-rest-1.0-SNAPSHOT.jar" />
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.0.5" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.5 Rest" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.MomConsumerApplication" />
+      <item itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <item itemvalue="JAR Application.aqropol-rest-2.0.0.RELEASE.jar" />
+      <item itemvalue="JAR Application.aqropol-rest-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <item itemvalue="JAR Application.mom_consumer-0.0.1-SNAPSHOT.jar" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JAR Application.aqropol-rest-2.0.0.RELEASE.jar" />
-        <item index="1" class="java.lang.String" itemvalue="JAR Application.aqropol-rest-1.0-SNAPSHOT.jar" />
-        <item index="2" class="java.lang.String" itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-        <item index="3" class="java.lang.String" itemvalue="Maven.aqropol-momProducer [package]" />
-        <item index="4" class="java.lang.String" itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT.jar" />
+      <list>
+        <item itemvalue="JAR Application.measure-pmsensor-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+        <item itemvalue="JAR Application.mom_consumer-0.0.1-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.aqropol-rest-2.0.0.RELEASE.jar" />
+        <item itemvalue="JAR Application.aqropol-rest-1.0-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.aqropol-momProducer-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -836,7 +1111,13 @@
       <workItem from="1520855229279" duration="88000" />
       <workItem from="1520855935101" duration="28381000" />
       <workItem from="1521033314378" duration="4659000" />
-      <workItem from="1521065447575" duration="1544000" />
+      <workItem from="1521065447575" duration="2906000" />
+      <workItem from="1521077778728" duration="2915000" />
+      <workItem from="1521150694712" duration="12635000" />
+      <workItem from="1521207275333" duration="20523000" />
+      <workItem from="1522357898438" duration="177000" />
+      <workItem from="1522359287963" duration="668000" />
+      <workItem from="1522765544629" duration="9136000" />
     </task>
     <task id="LOCAL-00001" summary="some stuffs">
       <created>1519531786230</created>
@@ -849,7 +1130,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116287000" />
+    <option name="totallyTimeSpent" value="163703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,40 +1145,44 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5355114" sideWeight="0.2253635" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30613893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.4915254" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5355114" sideWeight="0.7746365" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2471591" sideWeight="0.858643" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26898223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5084746" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28267047" sideWeight="0.43295637" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Tool Output" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2374798" side_tool="true" visible="true" weight="0.48005697" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4838449" weight="0.32954547" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.19063005" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
+      <window_info anchor="bottom" id="ANTLR Preview" />
+      <window_info id="Structure" order="1" sideWeight="0.4915254" side_tool="true" weight="0.24959612" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49353796" weight="0.32954547" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.49030694" weight="0.32954547" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.49030694" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48707592" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.41033927" weight="0.43019944" />
+      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49353796" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7625202" visible="true" weight="0.48005697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23909532" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="Web" order="2" sideWeight="0.5084746" side_tool="true" weight="0.24959612" />
+      <window_info id="Learn" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.43295637" weight="0.28267047" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="JavaEE:App" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -924,339 +1209,384 @@
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-dev/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/resources/info.properties" />
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/Test.java" />
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/TopicProducer.java" />
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-prod/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/test.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/bind/annotation/PathVariable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/org/springframework/security/samples/config/SecurityWebApplicationInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/GeneratedValue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Nuc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-            <element signature="e#428#429#0" expanded="false" />
-            <element signature="e#460#461#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#564#565#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/ManyToOne.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#637#638#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#757#758#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#829#830#0" expanded="false" />
-            <element signature="e#860#861#0" expanded="false" />
-            <element signature="e#887#888#0" expanded="false" />
-            <element signature="e#927#928#0" expanded="false" />
-            <element signature="e#959#960#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1019#1020#0" expanded="false" />
-            <element signature="e#1061#1062#0" expanded="false" />
-            <element signature="e#1095#1096#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/resources/conf-dev/info.properties" />
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/resources/conf-prod/info.properties" />
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/aqropolwebapp/src/main/java/com/servlet/ServletCollect.java" />
-    <entry file="file://$PROJECT_DIR$/aqropolrest/aqropolrest.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/345510f5/2e5b3a8b-8442-4aa3-b8f9-3af0526c262e/aqropol.public.sensor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/345510f5/2e5b3a8b-8442-4aa3-b8f9-3af0526c262e/aqropol.public.nuc">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/345510f5/2e5b3a8b-8442-4aa3-b8f9-3af0526c262e/aqropol.public.measure">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e5b3a8b-8442-4aa3-b8f9-3af0526c262e/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/resources/conf-prod/application.properties" />
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/resources/conf-dev/application.properties" />
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-prod/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="38" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/resources/conf-test/application.properties" />
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="155" column="44" lean-forward="false" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-dev/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="20" />
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/Greeting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/GreetingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/Receiver.java" />
     <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="40" />
-          <folding />
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/.gitignore" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.2.RELEASE/spring-rabbit-2.0.2.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessageListenerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java">
+    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java">
+    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="77" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="77" />
-          <folding />
+        <state relative-caret-position="183">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/SocketImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="161">
+          <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/SocketImplFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/init.sql">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/AbstractPlainSocketImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1521042071000" expanded="true" signature="8:49" ph="DROP TABLE I... " />
-            <marker date="1521042071000" expanded="true" signature="80:160" ph="CREATE TABLE... nuc" />
-            <marker date="1521042071000" expanded="true" signature="163:297" ph="CREATE TABLE... sensor" />
-            <marker date="1521042071000" expanded="true" signature="300:475" ph="CREATE TABLE... measure" />
-            <marker date="1521042071000" expanded="true" signature="478:586" ph="ALTER TABLE measure... " />
-            <marker date="1521042071000" expanded="true" signature="588:706" ph="ALTER TABLE measure... " />
-            <marker date="1521042071000" expanded="true" signature="709:794" ph="ALTER TABLE sensor... " />
-            <marker date="1521042071000" expanded="true" signature="838:900" ph="GRANT UPDATE... " />
-            <marker date="1521042071000" expanded="true" signature="902:935" ph="GRANT SELECT... " />
-            <marker date="1521042071000" expanded="true" signature="937:999" ph="GRANT SELECT... " />
-          </folding>
+        <state relative-caret-position="262">
+          <caret line="424" column="57" selection-start-line="424" selection-start-column="40" selection-end-line="424" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="-2709">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/SocksSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="87" column="52" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5381">
+          <caret line="502" column="38" selection-start-line="502" selection-start-column="23" selection-end-line="502" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/PlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scream3r/jssc/2.8.0/jssc-2.8.0.jar!/jssc/SerialPort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="217" column="18" selection-start-line="217" selection-start-column="18" selection-end-line="217" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scream3r/jssc/2.8.0/jssc-2.8.0.jar!/jssc/SerialNativeInterface.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4380">
+          <caret line="322" column="38" selection-start-line="322" selection-start-column="32" selection-end-line="322" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/ByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/StreamDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="167" column="19" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/measurepmsensor/measurepmsensor.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fazecast/jSerialComm/1.3.11/jSerialComm-1.3.11.jar!/com/fazecast/jSerialComm/SerialPort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="455" column="56" selection-start-line="455" selection-start-column="48" selection-end-line="455" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="12" column="81" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/ProducerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="71" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2-sources.jar!/com/rabbitmq/tools/json/JSONReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar!/com/google/gson/stream/JsonReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kurbatov/firmata4j/2.3.6/firmata4j-2.3.6.jar!/org/firmata4j/firmata/FirmataDevice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="262" column="39" selection-start-line="262" selection-start-column="17" selection-end-line="262" selection-end-column="39" />
+          <folding>
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#3888#3889#0" expanded="true" />
+            <element signature="e#3927#3928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="-67">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="1650">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/.gitignore">
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Nuc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kurbatov/firmata4j/2.3.6/firmata4j-2.3.6.jar!/org/firmata4j/IODevice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5018#5019#0" expanded="true" />
+            <element signature="e#5063#5064#0" expanded="true" />
+            <element signature="e#5166#5167#0" expanded="true" />
+            <element signature="e#5233#5234#0" expanded="true" />
+            <element signature="e#5319#5320#0" expanded="true" />
+            <element signature="e#5386#5387#0" expanded="true" />
+            <element signature="e#6182#6183#0" expanded="true" />
+            <element signature="e#6217#6218#0" expanded="true" />
+            <element signature="e#6261#6262#0" expanded="true" />
+            <element signature="e#6301#6302#0" expanded="true" />
+            <element signature="e#6338#6339#0" expanded="true" />
+            <element signature="e#6375#6376#0" expanded="true" />
+            <element signature="e#6423#6424#0" expanded="true" />
+            <element signature="e#6467#6468#0" expanded="true" />
+            <element signature="e#6869#6870#0" expanded="true" />
+            <element signature="e#6912#6913#0" expanded="true" />
+            <element signature="e#6960#6961#0" expanded="true" />
+            <element signature="e#7008#7009#0" expanded="true" />
+            <element signature="e#7048#7049#0" expanded="true" />
+            <element signature="e#7092#7093#0" expanded="true" />
+            <element signature="e#7142#7143#0" expanded="true" />
+            <element signature="e#7192#7193#0" expanded="true" />
+            <element signature="e#7231#7232#0" expanded="true" />
+            <element signature="e#7274#7275#0" expanded="true" />
+            <element signature="e#7322#7323#0" expanded="true" />
+            <element signature="e#7370#7371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/novaPMsensor.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/libraries/ArduinoJson/src/ArduinoJson/Data/List.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>

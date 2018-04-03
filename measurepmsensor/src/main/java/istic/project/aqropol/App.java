@@ -1,19 +1,25 @@
 package istic.project.aqropol;
 
-import jssc.*;
+import com.fazecast.jSerialComm.SerialPort;
+import com.google.gson.Gson;
 import org.apache.commons.cli.*;
+import org.apache.log4j.Logger;
+import org.firmata4j.IODevice;
+import org.firmata4j.IODeviceEventListener;
+import org.firmata4j.IOEvent;
+import org.firmata4j.firmata.FirmataDevice;
 
-import java.util.Arrays;
-import java.util.regex.Pattern;
+import java.io.IOException;
+import java.util.concurrent.TimeoutException;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
+
+public class App {
+
+    private static final Gson gson = new Gson();
+
+    private final static Logger logger = Logger.getLogger(RoutingProducer.class);
+
+    public static void main(String[] args) {
         Options options = new Options();
 
         /*
@@ -27,15 +33,6 @@ public class App
                 optionGroup.addOption(option);
             }
 
-            options.addOptionGroup(optionGroup);
-        }
-
-        /*
-            Info Group Options
-         */
-        {
-            OptionGroup optionGroup = new OptionGroup();
-
             {
                 Option option = new Option("l", "list", false, "Liste les interfaces USB disponibles.");
                 option.setRequired(true);
@@ -43,57 +40,17 @@ public class App
             }
 
             {
-                Option option = new Option("c", "path", true, "Spécifie le path des interfaces USB.");
-                optionGroup.addOption(option);
-            }
-
-            {
-                Option option = new Option("r", "regex", true, "Spécifie un pattern pour filtrer la liste des port.");
-                optionGroup.addOption(option);
-            }
-
-            options.addOptionGroup(optionGroup);
-        }
-
-
-
-        /*
-            Port option groupe
-         */
-        {
-            OptionGroup optionGroup = new OptionGroup();
-
-            {
-                Option option = new Option("i", "interface", true, "Ouvre l'interface USB spécifié.");
+                Option option = new Option("i", "interface", true, "Ouvre l'interface USB spécifié. Par exemple : /dev/tty.usbmodem1421");
+                option.setType(String.class);
+                option.setArgName("name");
+                option.setArgs(1);
                 option.setRequired(true);
                 optionGroup.addOption(option);
             }
 
-            {
-                Option option = new Option("b", "baud", true, "Spécifie le baud rate.");
-                option.setType(Integer.class);
-                option.setArgName("baud_rate");
-                option.setArgs(1);
-                options.addOption(option);
-            }
-
-            {
-                Option option = new Option("d", "databit", true, "Spécifie le data bit.");
-                options.addOption(option);
-            }
-
-            {
-                Option option = new Option("s", "stop", true, "Spécifie le stop bit.");
-                options.addOption(option);
-            }
-
-            {
-                Option option = new Option("p", "parity", true, "Spécifie le parity bit.");
-                options.addOption(option);
-            }
-
             options.addOptionGroup(optionGroup);
         }
+
 
         /*
             Parse command
@@ -103,108 +60,164 @@ public class App
         try {
             CommandLine cmd = parser.parse(options, args);
 
-            if(cmd.hasOption("help")) {
+            if (cmd.hasOption("help")) {
                 HelpFormatter helpFormatter = new HelpFormatter();
-                helpFormatter.printHelp("[-h] | -l [-c <path>] [-r <regex>] | -i <name> [-b <baud_rate>] [-d <data_bit>] [-s <stop_bit>] [-p <parity_bit>]", options);
-            } else if(cmd.hasOption("list")) {
-                String path = cmd.getOptionValue("path");
-                String regex = cmd.getOptionValue("regex");
-
-                App.printPortList(path, regex);
-            } else if(cmd.hasOption("interface")) {
-                String name = cmd.getOptionValue("interface");
-                int baud_rate = (int) (cmd.hasOption("baud") ? cmd.getParsedOptionValue("baud") : SerialPort.BAUDRATE_9600);
-                int data_bit = (int) (cmd.hasOption("databit") ? cmd.getParsedOptionValue("databit") : SerialPort.DATABITS_8);
-                int stop_bit = (int) (cmd.hasOption("stop") ? cmd.getParsedOptionValue("stop") : SerialPort.STOPBITS_1);
-                int parity_bit = (int) (cmd.hasOption("parity") ? cmd.getParsedOptionValue("parity") : SerialPort.PARITY_NONE);
-                openPort(name, baud_rate, data_bit, stop_bit, parity_bit);
+                helpFormatter.printHelp("[-h] | -l | -i <name>", options);
+            } else if (cmd.hasOption("list")) {
+                App.printPortList();
+            } else if (cmd.hasOption("interface")) {
+                String portName = cmd.getOptionValue("interface");
+                openPort(portName);
             }
 
         } catch (ParseException e) {
-            System.err.println( "Parsing failed.  Reason: " + e.getMessage());
-            e.printStackTrace();
+            logger.error("Fail to parse", e);
         }
     }
 
-    private static void openPort(String name, int baud_rate, int data_bit, int stop_bit, int parity_bit) {
-        SerialPort serialPort = new SerialPort(name);
+    private static void openPort(String portName) {
+        IODevice device = new FirmataDevice(portName);
+
         try {
-            serialPort.openPort();
-            boolean res = serialPort.setParams(baud_rate, data_bit, stop_bit, parity_bit);
-            if(res) {
-                System.out.println("serial port parameters set to :\n" +
-                        "\tBaud rate : " + baud_rate + "\n" +
-                        "\tData bit : " + data_bit + "\n" +
-                        "\tStop bit : " + stop_bit + "\n" +
-                        "\tParity bit : " + parity_bit + "\n");
-            } else {
-                System.err.println("[ECHEC] with parameters : \n" +
-                        "\tBaud rate : " + baud_rate + "\n" +
-                        "\tData bit : " + data_bit + "\n" +
-                        "\tStop bit : " + stop_bit + "\n" +
-                        "\tParity bit : " + parity_bit + "\n");
-            }
 
-            int mask = SerialPort.MASK_RXCHAR + SerialPort.MASK_CTS + SerialPort.MASK_DSR;
-            serialPort.setEventsMask(mask);
-            serialPort.addEventListener(event -> {
-                if(event.isRXCHAR()){//If data is available
-                        //Read data, if 10 bytes available
+            RoutingProducer.RoutingProducerFactory fact = new RoutingProducer.RoutingProducerFactory();
+            RoutingProducer producer = fact.build();
 
+            device.addEventListener(new IODeviceEventListener() {
+                @Override
+                public void onStart(IOEvent ioEvent) {
+                    System.out.println(ioEvent);
+                }
+
+                @Override
+                public void onStop(IOEvent ioEvent) {
+                    System.out.println(ioEvent);
+                }
+
+                @Override
+                public void onPinChange(IOEvent ioEvent) {
+                    System.out.println(ioEvent);
+                }
+
+                @Override
+                public void onMessageReceive(IOEvent ioEvent, String s) {
                     try {
-                            byte buffer[] = serialPort.readBytes();
-                            System.out.print(new String(buffer));
-                        }
-                        catch (SerialPortException ex) {
-                            ex.printStackTrace();
-                        }
-                }
-                else if(event.isCTS()){//If CTS line has changed state
-                    if(event.getEventValue() == 1){//If line is ON
-                        System.out.println("CTS - ON");
-                    }
-                    else {
-                        System.out.println("CTS - OFF");
-                    }
-                }
-                else if(event.isDSR()){///If DSR line has changed state
-                    if(event.getEventValue() == 1){//If line is ON
-                        System.out.println("DSR - ON");
-                    }
-                    else {
-                        System.out.println("DSR - OFF");
+                        producer.send(s);
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
                 }
             });
 
-            boolean loop = true;
-            while(loop) {
+            device.start();
+
+            Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+                System.out.println("shutting down, closing the serial comm..");
                 try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
+                    device.stop();
+                    System.out.print("Serial comm closed");
+
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
-            }
+            }));
 
-            serialPort.closePort();
-        } catch (SerialPortException e) {
+            //device.ensureInitializationIsDone();
+
+        } catch (IOException e) {
             e.printStackTrace();
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+
+
+        //JsonReader reader = new JsonReader(new InputStreamReader(serialPort.getInputStream()));
+        //System.out.println(gson.fromJson(line, Measure.class));
+    }
+
+    private static void printPortList() {
+        SerialPort[] ports = SerialPort.getCommPorts();
+        System.out.println("Serial Port List [" + ports.length + "] :");
+
+        for (int i = 0; i < ports.length; i++) {
+            System.out.println("\t- [" + i + "] " + ports[i].getDescriptivePortName() + " <" + ports[i].getSystemPortName() + ">");
         }
     }
 
-    private static void printPortList(String path, String regex) {
-        String[] portNames;
+    public static boolean isJSONValid(String jsonInString) {
+        try {
+            gson.fromJson(jsonInString, Object.class);
+            return true;
+        } catch (com.google.gson.JsonSyntaxException ex) {
+            return false;
+        }
+    }
 
-        if(path == null) {
-            portNames = SerialPortList.getPortNames();
-        } else if (regex == null) {
-            portNames = SerialPortList.getPortNames();
-        } else {
-            portNames = SerialPortList.getPortNames(path, Pattern.compile(regex));
+    public class Measure {
+        public String data;
+        public Sensor sensor;
+
+        public String getData() {
+            return data;
         }
 
-        System.out.println("Serial Port List [" + portNames.length +"] :");
+        public void setData(String data) {
+            this.data = data;
+        }
 
-        Arrays.stream(portNames).map(portName -> "\t- " + portName).forEach(System.out::println);
+        public Sensor getSensor() {
+            return sensor;
+        }
+
+        public void setSensor(Sensor sensor) {
+            this.sensor = sensor;
+        }
+
+        @Override
+        public String toString() {
+            return "istic.project.aqropol.App.measure{" +
+                    "data='" + data + '\'' +
+                    ", sensor=" + sensor +
+                    '}';
+        }
+
+        public class Sensor {
+            public String name;
+            public String unity;
+            public String type;
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+
+            public String getUnity() {
+                return unity;
+            }
+
+            public void setUnity(String unity) {
+                this.unity = unity;
+            }
+
+            public String getType() {
+                return type;
+            }
+
+            public void setType(String type) {
+                this.type = type;
+            }
+
+            @Override
+            public String toString() {
+                return "istic.project.aqropol.App.measure.Sensor{" +
+                        "name='" + name + '\'' +
+                        ", unity='" + unity + '\'' +
+                        ", type='" + type + '\'' +
+                        '}';
+            }
+        }
     }
 }
