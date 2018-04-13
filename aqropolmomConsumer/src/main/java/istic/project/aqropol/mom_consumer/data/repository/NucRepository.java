@@ -1,11 +1,10 @@
-package hello.data.repository;
+package istic.project.aqropol.mom_consumer.data.repository;
 
-import hello.data.Nuc;
-import hello.data.Sensor;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import istic.project.aqropol.mom_consumer.data.Nuc;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
-import java.util.List;
+import java.util.Optional;
 
 /**
  * @author VinYarD
@@ -13,6 +12,7 @@ import java.util.List;
  */
 
 
-public interface NucRepository extends PagingAndSortingRepository<Nuc, Long> {
+public interface NucRepository extends CrudRepository<Nuc, Long> {
 
+    Optional<Nuc> findByToken(@Param("token") String token);
 }

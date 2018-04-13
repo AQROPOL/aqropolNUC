@@ -1,4 +1,5 @@
 hello/data/Nuc.class
+hello/MeasureController.class
 hello/Greeting.class
 hello/data/Measure.class
 hello/data/repository/SensorRepository.class

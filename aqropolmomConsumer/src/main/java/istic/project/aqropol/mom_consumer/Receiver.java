@@ -1,10 +1,18 @@
 package istic.project.aqropol.mom_consumer;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import istic.project.aqropol.mom_consumer.data.Measure;
+import istic.project.aqropol.mom_consumer.data.Nuc;
+import istic.project.aqropol.mom_consumer.data.Sensor;
+import istic.project.aqropol.mom_consumer.data.StringByteArrayAdapter;
+import istic.project.aqropol.mom_consumer.data.repository.MeasureRepository;
+import istic.project.aqropol.mom_consumer.data.repository.NucRepository;
+import istic.project.aqropol.mom_consumer.data.repository.SensorRepository;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.stereotype.Component;
-import org.springframework.util.StopWatch;
 
-import java.util.concurrent.CountDownLatch;
+import java.sql.Timestamp;
+import java.util.Optional;
 
 /**
  * @author VinYarD
@@ -13,27 +21,50 @@ import java.util.concurrent.CountDownLatch;
 
 public class Receiver {
 
-    @RabbitListener(queues = "#{autoDeleteQueue.name}")
-    public void receive(byte[] in) throws InterruptedException {
-        receive(new String(in), 1);
-    }
+    private static final Gson gson = new GsonBuilder().registerTypeHierarchyAdapter(byte[].class,
+            new StringByteArrayAdapter()).create();
 
-    public void receive(String in, int receiver) throws InterruptedException {
-        StopWatch watch = new StopWatch();
-        watch.start();
-        System.out.println("instance " + receiver + " [x] Received '" + in + "'");
-        //doWork(in);
-        watch.stop();
-        System.out.println("instance " + receiver + " [x] Done in " +
-                watch.getTotalTimeSeconds() + "s");
-    }
+    private final MeasureRepository measureRepository;
+    private final SensorRepository sensorRepository;
+    private final NucRepository nucRepository;
 
-    private void doWork(String in) throws InterruptedException {
-        for (char ch : in.toCharArray()) {
-            if (ch == '.') {
-                Thread.sleep(1000);
-            }
+    private final Nuc nuc;
+
+    public Receiver(MeasureRepository measureRepository, SensorRepository sensorRepository, NucRepository nucRepository) {
+        this.measureRepository = measureRepository;
+        this.sensorRepository = sensorRepository;
+        this.nucRepository = nucRepository;
+
+        this.nuc = this.nucRepository.findByToken("token_de_mon_nuc_dev_001").get();
+
+        if(this.nuc == null) {
+            System.err.println("Cannot found nuc named token_de_mon_nuc_dev_001");
+            System.exit(1);
         }
     }
 
+    @RabbitListener(queues = "#{autoDeleteQueue.name}")
+    public void receive(byte[] in) {
+        receive(new String(in), 1);
+    }
+
+    public void receive(String in, int receiver) {
+        Measure m = gson.fromJson(in, Measure.class);
+        if(m != null) {
+            Sensor s = m.getSensor();
+            Optional<Sensor> newSensor = sensorRepository.findByNameAndTypeAndUnity(s.getName(), s.getType(), s.getUnity());
+            if(newSensor.isPresent()) {
+                m.setSensor(newSensor.get());
+            }
+            m.setNuc(nuc);
+            m.setTimestamp(new Timestamp(System.currentTimeMillis()));
+
+            Measure mSaved = this.measureRepository.save(m);
+            System.out.println("Saved : " + mSaved);
+
+        } else {
+            System.out.println("Echec JPA");
+            System.out.println("instance " + receiver + " [x] Received '" + in + "'");
+        }
+    }
 }

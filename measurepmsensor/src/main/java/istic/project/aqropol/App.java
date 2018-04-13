@@ -121,12 +121,7 @@ public class App {
                     e.printStackTrace();
                 }
             }));
-
-            //device.ensureInitializationIsDone();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (TimeoutException e) {
+        } catch (IOException | TimeoutException e) {
             e.printStackTrace();
         }
 

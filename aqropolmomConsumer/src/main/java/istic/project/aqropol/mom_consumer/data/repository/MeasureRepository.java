@@ -1,8 +1,7 @@
-package hello.data.repository;
+package istic.project.aqropol.mom_consumer.data.repository;
 
-import hello.data.Measure;
-import hello.data.Nuc;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import istic.project.aqropol.mom_consumer.data.Measure;
+import org.springframework.data.repository.CrudRepository;
 
 /**
  * @author VinYarD
@@ -10,6 +9,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
  */
 
 
-public interface MeasureRepository extends PagingAndSortingRepository<Measure, Long> {
+public interface MeasureRepository extends CrudRepository<Measure, Long> {
 
 }

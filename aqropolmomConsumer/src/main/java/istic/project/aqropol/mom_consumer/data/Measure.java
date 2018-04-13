@@ -1,7 +1,8 @@
-package hello.data;
+package istic.project.aqropol.mom_consumer.data;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.Arrays;
 
 /**
  * @author VinYarD
@@ -43,7 +44,7 @@ public class Measure {
         this.hash = hash;
     }
 
-    @Column(name = "hash", nullable = false)
+    @Column(name = "hash", nullable = true)
     private byte[] hash;
 
     @Column(name = "datetime", nullable = false)
@@ -82,5 +83,17 @@ public class Measure {
     }
 
     public Measure() {
+    }
+
+    @Override
+    public String toString() {
+        return "istic.project.aqropol.mom_consumer.data.Measure{" +
+                "id=" + id +
+                ", nuc=" + nuc +
+                ", sensor=" + sensor +
+                ", value=" + Arrays.toString(value) +
+                ", hash=" + Arrays.toString(hash) +
+                ", timestamp=" + timestamp +
+                '}';
     }
 }

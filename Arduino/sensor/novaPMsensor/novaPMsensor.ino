@@ -56,7 +56,7 @@ void loop() {
       sensor["name"] = "SDS011";
       sensor["type"] = "pm10";
       sensor["unity"] = "ug/m^3";
-      root["data"] = String(p10);
+      root["value"] = String(p10);
 
       char buff[100];
       root.printTo(buff);
@@ -69,7 +69,7 @@ void loop() {
       sensor["name"] = "SDS011";
       sensor["type"] = "pm2.5";
       sensor["unity"] = "ug/m^3";
-      root["data"] = String(p25);
+      root["value"] = String(p25);
 
       char buff[100];
       root.printTo(buff);

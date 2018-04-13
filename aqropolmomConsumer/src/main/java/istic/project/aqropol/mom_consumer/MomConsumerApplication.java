@@ -1,5 +1,8 @@
 package istic.project.aqropol.mom_consumer;
 
+import istic.project.aqropol.mom_consumer.data.repository.MeasureRepository;
+import istic.project.aqropol.mom_consumer.data.repository.NucRepository;
+import istic.project.aqropol.mom_consumer.data.repository.SensorRepository;
 import org.springframework.amqp.core.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -31,7 +34,7 @@ public class MomConsumerApplication {
     }
 
     @Bean
-    public Receiver receiver() {
-        return new Receiver();
+    public Receiver receiver(MeasureRepository measureRepository, SensorRepository sensorRepository, NucRepository nucRepository) {
+        return new Receiver(measureRepository, sensorRepository, nucRepository);
     }
 }

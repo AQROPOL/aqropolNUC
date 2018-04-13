@@ -1,4 +1,4 @@
-package hello.data;
+package istic.project.aqropol.mom_consumer.data;
 
 import javax.persistence.*;
 

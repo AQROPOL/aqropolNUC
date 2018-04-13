@@ -3,10 +3,9 @@ package hello;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicLong;
 
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 
 @RestController
@@ -17,7 +16,16 @@ public class GreetingController {
 
     @RequestMapping({"/greeting/{name}", "greeting"})
     public Greeting greeting(@PathVariable(required = false) Optional<String> name) {
+
         return new Greeting(counter.incrementAndGet(),
                 String.format(template, name.orElse("World")));
+    }
+
+    @RequestMapping(value = "/greting", method = RequestMethod.POST)
+    public ResponseEntity<Greeting> postGreeting(@RequestBody Greeting newGreeting) {
+        System.out.println("POST");
+        return ResponseEntity.created(ServletUriComponentsBuilder
+                .fromCurrentRequest().path("/{id}")
+                .buildAndExpand(newGreeting.getId()).toUri()).build();
     }
 }

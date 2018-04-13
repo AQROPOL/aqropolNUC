@@ -1,10 +1,11 @@
-package hello.data.repository;
+package istic.project.aqropol.mom_consumer.data.repository;
 
-import hello.data.Sensor;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import istic.project.aqropol.mom_consumer.data.Sensor;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @author VinYarD
@@ -12,8 +13,10 @@ import java.util.List;
  */
 
 
-public interface SensorRepository extends PagingAndSortingRepository<Sensor, Long> {
+public interface SensorRepository extends CrudRepository<Sensor, Long> {
 
     List<Sensor> findAllByType(@Param("type") String type);
+
+    Optional<Sensor> findByNameAndTypeAndUnity(@Param("name") String name, @Param("type") String type, @Param("unity") String unity);
 
 }

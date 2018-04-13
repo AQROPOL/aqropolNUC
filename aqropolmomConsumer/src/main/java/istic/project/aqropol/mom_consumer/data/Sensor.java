@@ -1,4 +1,4 @@
-package hello.data;
+package istic.project.aqropol.mom_consumer.data;
 
 import javax.persistence.*;
 
@@ -14,6 +14,16 @@ public class Sensor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
+    @Override
+    public String toString() {
+        return "istic.project.aqropol.mom_consumer.data.Sensor{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", unity='" + unity + '\'' +
+                '}';
+    }
 
     @Column(name = "name", nullable = false)
     private String name;
