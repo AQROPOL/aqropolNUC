@@ -1,7 +1,11 @@
+hello/Greeting.class
+hello/data/InlineSensor$IdMeasure.class
+hello/MyDataRestConf.class
+hello/data/InlineSensor.class
 hello/data/Nuc.class
 hello/MeasureController.class
-hello/Greeting.class
 hello/data/Measure.class
+hello/data/IdSensor.class
 hello/data/repository/SensorRepository.class
 config/WebSecurityConfig.class
 hello/data/repository/NucRepository.class

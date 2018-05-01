@@ -17,7 +17,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <aqropol.amqp.host>localhost</aqropol.amqp.host>
+        <aqropol.amqp.host>10.42.0.1</aqropol.amqp.host>
         <aqropol.amqp.port>5672</aqropol.amqp.port>
         <aqropol.amqp.vhost>aqropol</aqropol.amqp.vhost>
         <aqropol.amqp.user>aqropol</aqropol.amqp.user>
