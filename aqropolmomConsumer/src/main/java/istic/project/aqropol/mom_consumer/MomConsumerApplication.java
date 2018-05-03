@@ -4,6 +4,7 @@ import istic.project.aqropol.mom_consumer.data.repository.MeasureRepository;
 import istic.project.aqropol.mom_consumer.data.repository.NucRepository;
 import istic.project.aqropol.mom_consumer.data.repository.SensorRepository;
 import org.springframework.amqp.core.*;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -15,14 +16,23 @@ public class MomConsumerApplication {
         SpringApplication.run(MomConsumerApplication.class, args);
     }
 
+    @Value("${aqropol.amqp.channel.exchanger}")
+    private String exchanger;
+
+    @Value("${aqropol.amqp.channel.route}")
+    private String route;
+
+    @Value("${aqropol.amqp.queue}")
+    private String queue;
+
     @Bean
     public DirectExchange direct() {
-        return new DirectExchange("aqropol_sensors");
+        return new DirectExchange(exchanger);
     }
 
     @Bean
     public Queue autoDeleteQueue() {
-        return new Queue("sensors");
+        return new Queue(queue);
     }
 
     @Bean
@@ -30,7 +40,7 @@ public class MomConsumerApplication {
                              Queue autoDeleteQueue) {
         return BindingBuilder.bind(autoDeleteQueue)
                 .to(direct)
-                .with("sensors");
+                .with(route);
     }
 
     @Bean
