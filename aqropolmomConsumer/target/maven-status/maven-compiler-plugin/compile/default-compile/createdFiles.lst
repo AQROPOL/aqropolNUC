@@ -1,9 +1,0 @@
-istic/project/aqropol/mom_consumer/Receiver.class
-istic/project/aqropol/mom_consumer/data/Sensor.class
-istic/project/aqropol/mom_consumer/data/Nuc.class
-istic/project/aqropol/mom_consumer/data/Measure.class
-istic/project/aqropol/mom_consumer/MomConsumerApplication.class
-istic/project/aqropol/mom_consumer/data/StringByteArrayAdapter.class
-istic/project/aqropol/mom_consumer/data/repository/SensorRepository.class
-istic/project/aqropol/mom_consumer/data/repository/NucRepository.class
-istic/project/aqropol/mom_consumer/data/repository/MeasureRepository.class

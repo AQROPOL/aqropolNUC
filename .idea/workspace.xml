@@ -1001,7 +1001,7 @@
       <workItem from="1524602503733" duration="7000" />
       <workItem from="1525174575535" duration="3250000" />
       <workItem from="1525253156808" duration="8830000" />
-      <workItem from="1525346778405" duration="2797000" />
+      <workItem from="1525346778405" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="some stuffs">
       <created>1519531786230</created>
@@ -1014,7 +1014,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206177000" />
+    <option name="totallyTimeSpent" value="206437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1051,8 +1051,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48707592" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78594506" weight="0.43019944" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49353796" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8594507" visible="true" weight="0.48005697" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29725364" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.8594507" visible="true" weight="0.48005697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29725364" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" sideWeight="0.5084746" side_tool="true" weight="0.24959612" />
       <window_info id="Learn" order="2" />
