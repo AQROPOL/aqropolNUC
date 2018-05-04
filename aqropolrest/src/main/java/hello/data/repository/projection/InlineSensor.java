@@ -1,5 +1,8 @@
-package hello.data;
+package hello.data.repository.projection;
 
+import hello.data.Measure;
+import hello.data.Nuc;
+import hello.data.Sensor;
 import org.springframework.data.rest.core.config.Projection;
 
 import java.sql.Timestamp;
@@ -13,13 +16,4 @@ public interface InlineSensor {
     byte[] getValue();
     Timestamp getTimestamp();
     Nuc getNuc();
-
-    /**
-     * @author VinYarD
-     * created : 01/05/2018, 15:10
-     */
-
-
-    class IdMeasure {
-    }
 }

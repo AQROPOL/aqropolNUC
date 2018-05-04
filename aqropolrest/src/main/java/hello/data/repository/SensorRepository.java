@@ -1,7 +1,6 @@
 package hello.data.repository;
 
-import hello.data.IdSensor;
-import hello.data.InlineSensor;
+import hello.data.repository.projection.IdSensor;
 import hello.data.Sensor;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;

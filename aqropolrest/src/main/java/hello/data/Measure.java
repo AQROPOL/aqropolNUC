@@ -45,7 +45,7 @@ public class Measure {
         this.hash = hash;
     }
 
-    @Column(name = "hash", nullable = false)
+    @Column(name = "hash", nullable = true)
     private byte[] hash;
 
     @Column(name = "datetime", nullable = false)

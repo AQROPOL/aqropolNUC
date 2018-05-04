@@ -1,4 +1,4 @@
-package hello;
+package config;
 
 import hello.data.Measure;
 import hello.data.Sensor;
