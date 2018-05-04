@@ -16,6 +16,9 @@ public class MomConsumerApplication {
         SpringApplication.run(MomConsumerApplication.class, args);
     }
 
+    /*
+        Les variables @Value sont initalise grace aux ressources presentent dans le fichier application.properties
+     */
     @Value("${aqropol.amqp.channel.exchanger}")
     private String exchanger;
 
@@ -24,6 +27,10 @@ public class MomConsumerApplication {
 
     @Value("${aqropol.amqp.queue}")
     private String queue;
+
+    /*
+        Voir documentation : https://www.rabbitmq.com/tutorials/tutorial-four-spring-amqp.html
+     */
 
     @Bean
     public DirectExchange direct() {

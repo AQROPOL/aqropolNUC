@@ -14,9 +14,15 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapt
 @Configuration
 public class MyDataRestConf extends RepositoryRestConfigurerAdapter {
 
+    /*
+        Classe de configuration des repository rest.
+     */
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
+        /*
+            Ordonne a spring rest d'afficher l'ID des ressources Sensor et Measure.
+         */
         config.exposeIdsFor(Sensor.class);
         config.exposeIdsFor(Measure.class);
     }

@@ -1,7 +1,5 @@
 package hello.data;
 
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-
 import javax.persistence.*;
 import java.sql.Timestamp;
 

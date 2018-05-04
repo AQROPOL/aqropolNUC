@@ -49,6 +49,10 @@ public class Receiver {
     }
 
     public void receive(String in, int receiver) {
+        /*
+            Les donnees recues sont au format Json, on les deserialise donc grace a la librairie de google : gson
+         */
+
         Measure m = gson.fromJson(in, Measure.class);
         if(m != null) {
             Sensor s = m.getSensor();
@@ -59,7 +63,7 @@ public class Receiver {
             m.setNuc(nuc);
             m.setTimestamp(new Timestamp(System.currentTimeMillis()));
 
-            Measure mSaved = this.measureRepository.save(m);
+            Measure mSaved = this.measureRepository.save(m); // on fait persister en base
             System.out.println("Saved : " + mSaved);
 
         } else {

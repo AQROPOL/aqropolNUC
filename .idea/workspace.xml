@@ -8,15 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1be76cda-6907-4b1e-ac6e-0c443a8fae38" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Greeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/GreetingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/MyDataRestConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/src/main/java/config/MyDataRestConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/IdSensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/InlineSensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/config/MyDataRestConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/src/main/java/config/MyDataRestConf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,26 +78,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Measure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2787">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensorRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-101">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoutingProducer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="757">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
@@ -115,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InlineSensor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InlineSensor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/projection/InlineSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="240">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,48 +126,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Receiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="51" column="33" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sensor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/data/Sensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Measure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/data/Measure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MeasureRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="240">
               <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NucRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MeasureController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/MeasureController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-371">
+              <caret line="6" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SensorRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +225,6 @@
       <list>
         <option value="$PROJECT_DIR$/measurepmsensor/pom.xml" />
         <option value="$PROJECT_DIR$/Arduino/sensor/novaPMsensor/readme.txt" />
-        <option value="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/data/Nuc.java" />
         <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/data/Nuc.java" />
         <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/data/repository/MeasureRepository.java" />
@@ -232,14 +235,12 @@
         <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/data/repository/SensorRepository.java" />
         <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/data/repository/NucRepository.java" />
         <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/data/Measure.java" />
-        <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/GreetingController.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/data/StringByteArrayAdapter.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureCRUDRepo.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepo.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/MeasureController.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/InlineSensor.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/IdMeasure.java" />
@@ -261,15 +262,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/aqropolmomConsumer/target/classes/application.properties" />
         <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/resources/conf-dev/application.properties" />
-        <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/target/classes/config.properties" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-dev/config.properties" />
         <option value="$PROJECT_DIR$/aqropolmomProducer/src/main/resources/conf-prod/config.properties" />
-        <option value="$PROJECT_DIR$/aqropolrest/src/main/java/config/MyDataRestConf.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java" />
-        <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java" />
         <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/projection/InlineSensor.java" />
+        <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java" />
+        <option value="$PROJECT_DIR$/aqropolrest/src/main/java/config/MyDataRestConf.java" />
+        <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java" />
+        <option value="$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java" />
+        <option value="$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java" />
       </list>
     </option>
   </component>
@@ -995,7 +999,7 @@
       <workItem from="1524602503733" duration="7000" />
       <workItem from="1525174575535" duration="3250000" />
       <workItem from="1525253156808" duration="8830000" />
-      <workItem from="1525346778405" duration="5476000" />
+      <workItem from="1525346778405" duration="8151000" />
     </task>
     <task id="LOCAL-00001" summary="some stuffs">
       <created>1519531786230</created>
@@ -1008,7 +1012,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208856000" />
+    <option name="totallyTimeSpent" value="211531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,11 +1025,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21486267" side_tool="true" visible="true" weight="0.43019944" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21647818" side_tool="true" visible="true" weight="0.43019944" />
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4838449" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.18012924" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
@@ -1044,9 +1047,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.48869145" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48707592" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7851373" visible="true" weight="0.43019944" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78352183" visible="true" weight="0.43019944" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49353796" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8594507" weight="0.48005697" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.85783523" weight="0.48005697" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29725364" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" sideWeight="0.5084746" side_tool="true" weight="0.24959612" />
@@ -1097,27 +1100,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/IdMeasure.java" />
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Nuc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/init.sql" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.jar!/org/apache/coyote/http11/Http11InputBuffer.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1164,13 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/resources/conf-prod/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1182,13 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
@@ -1233,20 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/novaPMsensor.ino">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1258,13 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="60" column="75" selection-start-line="58" selection-end-line="60" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1282,48 +1229,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-164">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding>
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/MeasureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/config/MyDataRestConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,16 +1250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/resources/conf-dev/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1363,20 +1262,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/data/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1392,20 +1277,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java">
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        <state relative-caret-position="165">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java">
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Nuc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="360">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Measure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/MomConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
+          <folding>
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomConsumer/src/main/java/istic/project/aqropol/mom_consumer/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/config/MyDataRestConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arduino/sensor/novaPMsensor/novaPMsensor.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-699">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/projection/InlineSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1419,13 +1372,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/projection/InlineSensor.java">
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/MeasureRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="240">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/SensorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/data/repository/NucRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/measurepmsensor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="6" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolrest/src/main/java/hello/MeasureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/measurepmsensor/src/main/java/istic/project/aqropol/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2787">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aqropolmomProducer/src/main/java/istic/project/aqropol/RoutingProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>

@@ -76,6 +76,9 @@ public class App {
     }
 
     private static void openPort(String portName) {
+        /*
+            Attention Firmata prend le chemin absolu ou relatif, pas seulement le nom de l'interface
+         */
         IODevice device = new FirmataDevice(portName);
 
         try {
